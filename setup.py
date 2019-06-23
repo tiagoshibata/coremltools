@@ -9,7 +9,7 @@ README = os.path.join(os.getcwd(), "README.rst")
 with open(README) as f:
     long_description = f.read()
 
-setup(name='coremltools',
+setup(name='coremltools_windows',
     version='2.1.0',
     description='Community Tools for CoreML',
     long_description=long_description,
